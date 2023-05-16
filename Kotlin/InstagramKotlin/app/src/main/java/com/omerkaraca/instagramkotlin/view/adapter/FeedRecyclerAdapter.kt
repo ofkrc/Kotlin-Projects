@@ -1,10 +1,10 @@
-package com.omerkaraca.instagramkotlin.adapter
+package com.omerkaraca.instagramkotlin.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.omerkaraca.instagramkotlin.databinding.RecyclerRowBinding
-import com.omerkaraca.instagramkotlin.model.Post
+import com.omerkaraca.instagramkotlin.data.model.Post
 import com.squareup.picasso.Picasso
 
 class FeedRecyclerAdapter(private val postList : ArrayList<Post>) : RecyclerView.Adapter<FeedRecyclerAdapter.PostHolder>() {

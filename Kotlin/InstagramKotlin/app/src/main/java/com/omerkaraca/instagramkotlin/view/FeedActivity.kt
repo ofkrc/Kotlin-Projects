@@ -14,9 +14,9 @@ import com.google.firebase.firestore.Query
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.omerkaraca.instagramkotlin.R
-import com.omerkaraca.instagramkotlin.adapter.FeedRecyclerAdapter
+import com.omerkaraca.instagramkotlin.view.adapter.FeedRecyclerAdapter
 import com.omerkaraca.instagramkotlin.databinding.ActivityFeedBinding
-import com.omerkaraca.instagramkotlin.model.Post
+import com.omerkaraca.instagramkotlin.data.model.Post
 
 class FeedActivity : AppCompatActivity() {
 
